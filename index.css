@@ -1,0 +1,43 @@
+
+@media screen and (max-width:300px) {
+    body {
+        background-color: rgb(219, 33, 33);
+        font-size: 3vh;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width:300px) and (max-width:768px) {
+    body {
+        background-color: mediumseagreen;
+        font-size: 3vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+  
+    #small {
+        width:66%;
+    }
+
+    #medium {
+        width:34%;
+    }
+
+    #large {
+        width:100%;
+    }
+
+}
+
+
+@media screen and (min-width:768px){
+    body {
+        background-color: rgb(121, 171, 236);
+        font-size: 3vh;
+        display: flex;
+    }
+}
+
